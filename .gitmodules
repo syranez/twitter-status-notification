@@ -1,0 +1,6 @@
+[submodule "bash-oauth"]
+	path = bash-oauth
+	url = https://github.com/livibetter/bash-oauth.git
+[submodule "shell-json"]
+	path = shell-json
+	url = git://github.com/syranez/shell-json.git
