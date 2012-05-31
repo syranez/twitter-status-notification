@@ -14,7 +14,9 @@ status="Hihi, ist das ein Test oder ein Tweet?"
 
 TO_statuses_update "json" "${status}"
 
-if [[ $? != 0 ]]; then
-    echo "did not work."$?
+if [[ ${?} != 0 ]]; then
+    echo "Could not update status. Sorry. Returncode: ${?}"
     exit 1
 fi
+
+exit 0
